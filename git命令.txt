@@ -19,3 +19,8 @@ git stash pop 恢复并删除
 git log 查看版本
 git reset 跳转到需要的版本
 git tag 给版本加标签
+
+自定义 git 
+git config --global alias.别名 '需要替换的功能'
+加global   针对当前用户下所有库
+不加       只针对当前库起作用
