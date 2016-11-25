@@ -1,0 +1,21 @@
+git remote 显示当前路径下可以push和pull的repositories 
+git show 显示提交的commit信息
+git pull 与远程库合并
+git push 提交到远程库
+git clone 克隆库到当前路径
+git add 修改文件向git确认
+git commit 向git提交
+git branch 建立分支
+git checkout 跳转到分支
+git checkout -b 创建并跳转到分支
+git merge 快速合并模式
+git merge --no-ff -m"" 合并分支
+git branch -d 删除分支
+git stash 隐藏当前分支内容
+git stash list 查看隐藏的分支列表
+git stash apply 恢复隐藏的分支
+git stash drop 删除隐藏的分支
+git stash pop 恢复并删除
+git log 查看版本
+git reset 跳转到需要的版本
+git tag 给版本加标签
