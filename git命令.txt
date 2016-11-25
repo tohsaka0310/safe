@@ -1,10 +1,13 @@
+git add  把当前修改提交到暂存区
+git commit 把暂存区的内容提交的当前分支
+git status 查看版本状态
+git diff 查看目标版本与本地文件的区别
 git remote 显示当前路径下可以push和pull的repositories 
 git show 显示提交的commit信息
 git pull 与远程库合并
 git push 提交到远程库
 git clone 克隆库到当前路径
-git add 修改文件向git确认
-git commit 向git提交
+
 git branch 建立分支
 git checkout 跳转到分支
 git checkout -b 创建并跳转到分支
@@ -19,3 +22,8 @@ git stash pop 恢复并删除
 git log 查看版本
 git reset 跳转到需要的版本
 git tag 给版本加标签
+
+自定义 git 
+git config --global alias.别名 '需要替换的功能'
+加global   针对当前用户下所有库
+不加       只针对当前库起作用
