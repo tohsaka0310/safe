@@ -1,29 +1,35 @@
-git add  °Ñµ±Ç°ĞŞ¸ÄÌá½»µ½Ôİ´æÇø
-git commit °ÑÔİ´æÇøµÄÄÚÈİÌá½»µÄµ±Ç°·ÖÖ§
-git status ²é¿´°æ±¾×´Ì¬
-git diff ²é¿´Ä¿±ê°æ±¾Óë±¾µØÎÄ¼şµÄÇø±ğ
-git remote ÏÔÊ¾µ±Ç°Â·¾¶ÏÂ¿ÉÒÔpushºÍpullµÄrepositories 
-git show ÏÔÊ¾Ìá½»µÄcommitĞÅÏ¢
-git pull ÓëÔ¶³Ì¿âºÏ²¢
-git push Ìá½»µ½Ô¶³Ì¿â
-git clone ¿ËÂ¡¿âµ½µ±Ç°Â·¾¶
+git add  æŠŠå½“å‰ä¿®æ”¹æäº¤åˆ°æš‚å­˜åŒº
+git commit æŠŠæš‚å­˜åŒºçš„å†…å®¹æäº¤çš„å½“å‰åˆ†æ”¯
+git status æŸ¥çœ‹ç‰ˆæœ¬çŠ¶æ€
+git diff æŸ¥çœ‹ç›®æ ‡ç‰ˆæœ¬ä¸æœ¬åœ°æ–‡ä»¶çš„åŒºåˆ«
+git remote æ˜¾ç¤ºå½“å‰è·¯å¾„ä¸‹å¯ä»¥pushå’Œpullçš„repositories 
+git show æ˜¾ç¤ºæäº¤çš„commitä¿¡æ¯
+git pull ä¸è¿œç¨‹åº“åˆå¹¶
+git push æäº¤åˆ°è¿œç¨‹åº“
+git clone å…‹éš†åº“åˆ°å½“å‰è·¯å¾„
 
-git branch ½¨Á¢·ÖÖ§
-git checkout Ìø×ªµ½·ÖÖ§
-git checkout -b ´´½¨²¢Ìø×ªµ½·ÖÖ§
-git merge ¿ìËÙºÏ²¢Ä£Ê½
-git merge --no-ff -m"" ºÏ²¢·ÖÖ§
-git branch -d É¾³ı·ÖÖ§
-git stash Òş²Øµ±Ç°·ÖÖ§ÄÚÈİ
-git stash list ²é¿´Òş²ØµÄ·ÖÖ§ÁĞ±í
-git stash apply »Ö¸´Òş²ØµÄ·ÖÖ§
-git stash drop É¾³ıÒş²ØµÄ·ÖÖ§
-git stash pop »Ö¸´²¢É¾³ı
-git log ²é¿´°æ±¾
-git reset Ìø×ªµ½ĞèÒªµÄ°æ±¾
-git tag ¸ø°æ±¾¼Ó±êÇ©
+git branch å»ºç«‹åˆ†æ”¯
+git checkout è·³è½¬åˆ°åˆ†æ”¯
+git checkout -b åˆ›å»ºå¹¶è·³è½¬åˆ°åˆ†æ”¯
+git merge å¿«é€Ÿåˆå¹¶æ¨¡å¼
+git merge --no-ff -m"" åˆå¹¶åˆ†æ”¯
+git branch -d åˆ é™¤åˆ†æ”¯
+git stash éšè—å½“å‰åˆ†æ”¯å†…å®¹
+git stash list æŸ¥çœ‹éšè—çš„åˆ†æ”¯åˆ—è¡¨
+git stash apply æ¢å¤éšè—çš„åˆ†æ”¯
+git stash drop åˆ é™¤éšè—çš„åˆ†æ”¯
+git stash pop æ¢å¤å¹¶åˆ é™¤
+git log æŸ¥çœ‹ç‰ˆæœ¬
+git reset è·³è½¬åˆ°éœ€è¦çš„ç‰ˆæœ¬
+git tag ç»™ç‰ˆæœ¬åŠ æ ‡ç­¾
 
-×Ô¶¨Òå git 
-git config --global alias.±ğÃû 'ĞèÒªÌæ»»µÄ¹¦ÄÜ'
-¼Óglobal   Õë¶Ôµ±Ç°ÓÃ»§ÏÂËùÓĞ¿â
-²»¼Ó       Ö»Õë¶Ôµ±Ç°¿âÆğ×÷ÓÃ
+è‡ªå®šä¹‰ git 
+git config --global alias.åˆ«å 'éœ€è¦æ›¿æ¢çš„åŠŸèƒ½'
+åŠ global   é’ˆå¯¹å½“å‰ç”¨æˆ·ä¸‹æ‰€æœ‰åº“
+ä¸åŠ        åªé’ˆå¯¹å½“å‰åº“èµ·ä½œç”¨
+
+gitçš„åˆ é™¤æ–‡ä»¶æ“ä½œ
+é¦–å…ˆåœ¨å·¥ä½œåŒºæ‰‹åŠ¨åˆ é™¤ æˆ–è€…ä½¿ç”¨å‘½ä»¤ rm æ–‡ä»¶å
+ä¹‹åç”¨ git rm æ–‡ä»¶åç¡®å®šåˆ é™¤
+æˆ–è€…ä½¿ç”¨ git checkout -- æ–‡ä»¶å æ¢å¤è¢«åˆ é™¤çš„æ–‡ä»¶
+ä¹‹å git commit å°±å¯ä»¥äº†
